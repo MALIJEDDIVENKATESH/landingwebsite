@@ -42,8 +42,8 @@ body{
 }
 
 .nav-logo{
-    height:60px;
-    width: 200px;
+    height:80px;
+    width: 250px;
 
 }
 
@@ -128,6 +128,7 @@ hr{
     padding: 10px;
 }
 
+
 .program{
     margin: 5px auto;
     border-radius: 0px;
@@ -135,9 +136,14 @@ hr{
     display: flex;
     text-align: center;
     min-width: 60%;
+    height: 100%;
 
 
 
+}
+
+.program .card-img-top{
+    max-height: 300px;
 }
 
 .item{
@@ -149,11 +155,12 @@ display: flex;
 flex-direction: column;
 justify-content:space-evenly;
 align-items: center;
-flex-wrap: wrap;
+/* flex-wrap: wrap; */
 color: white;
 }
 .item:hover{
     box-shadow: 0 0 60px rgba(0,0,0.1);
+
 
 }
 .fa-star {
@@ -161,37 +168,60 @@ color: white;
 }
 
 .program:hover{
-    box-shadow: 0px 0px 5px rgba(0,0,0.3);
+    box-shadow:  0 .5rem 1rem rgba(0,0,0,.15)!important;
     transform: scale(1.05);
 
 }
 
 .mentor{
-    margin: 25px;
+    margin: 10px auto;
     border-radius: 5px;
-    border: 0.5px solid grey;
-    /* padding: 10px; */
+    /* border: 0.5px solid grey; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 90% !important;
+    width: 90%;
+    box-shadow:  0 .5rem 1rem rgba(0,0,0,.15)!important
+}
 
+
+
+
+.mentors-container{
+}
+
+.mentor-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .mentor-details{
     font-size: 1.2rem;
     padding: 25px;
+    text-align: center;
 }
 .mentor-image{
-    width: 100%;
-    height:100%;
-    /* border-radius: 60%; */
+    width: 60%;
+    height:90%;
+    border-radius: 50%;
     
 }
 
 .mentor-name{
     font-weight: bold;
-    font-size: 40px;
+    font-size: 20px;
 }
 .image-container{
     padding-right:0px !important;
     padding-left: 0px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -223,16 +253,16 @@ color: white;
 
 
 .carousel{
-    margin: 10px auto;
-    min-height: 400px;
+    margin: 5px auto;
+    min-height: 600px;
     display: flex;
     align-items: center;
     background-color: black;
-    justify-content: center;
+    justify-content: space-around;
 }
 .carousel-inner{
     width: 100%;
-    height: 500px;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -244,6 +274,12 @@ color: white;
     height: 90%;
     margin: 12px auto;
     text-align: center;
+}
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color:white;
 }
 
 .studentimg{
