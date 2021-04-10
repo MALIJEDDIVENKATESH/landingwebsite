@@ -105,15 +105,17 @@ hr{
         text-align: center;
         height: 100%;
         color:blue;
-        font-weight: 600;
+        font-weight: 700;
         
         
     }
     
-    .header-image{
-        padding: 50px;
+    
+    .headerimage{
+        padding: 50pX;
 
-          }
+
+    }
 
 
 
@@ -190,8 +192,8 @@ color: white;
 
 
 
-.mentors-container{
-}
+/* .mentors-container{
+} */
 
 .mentor-container{
     width: 100%;
@@ -375,6 +377,7 @@ color: white;
 }
 
 .link-container{
+    font-size: 1.2rem;
     display: flex;
     font-weight: bold !important;
 
