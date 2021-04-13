@@ -306,7 +306,7 @@ color: white;
 
 .fa {
     padding: 10px;
-    font-size: 20px;
+    font-size: 18px;
     width: 34px;
     text-align: center;
     text-decoration: none;
@@ -359,7 +359,9 @@ color: white;
 }
 .social-link{
     color: black;
-    font-weight: bold ;
+    font-weight: 600 ;
+    font-size: 1.2rem;
+
 }
 .social-link:hover{
     text-decoration: none;
@@ -377,10 +379,8 @@ color: white;
 }
 
 .link-container{
-    font-size: 1.2rem;
     display: flex;
     font-weight: bold !important;
-
     align-items: center;
 }
 
@@ -388,5 +388,4 @@ color: white;
 .address{
         border-left: 4px solid blue;
         text-align: left;
-
 }
