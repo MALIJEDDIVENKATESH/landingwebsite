@@ -13,7 +13,7 @@ html{
 }
 
 body{
-    margin: 0 !important;
+    margin: 0 !important ;
     padding: 0 !important;
     width: 100%;
     box-sizing: border-box;
@@ -23,11 +23,25 @@ body{
     padding: 50px 0px  0px;
     justify-content: center;
     flex-direction: column;
+  
     
 }
 .container,.container-fluid{
     padding-left: 0px !important;
     padding-right: 0px !important;
+    /* overflow-x: hidden; */
+
+}
+.row{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    /* min-width: 100%; */
+}
+.col-md-4,col-sm-12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 #scrollbutton{
@@ -435,8 +449,8 @@ margin-bottom: 5px;
     }
 
     .row{
-        margin-right: 0px;
-        margin-left: 0px;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
         min-width: 100%;
     }
     .col-sm-10,.col-md-6{
@@ -451,7 +465,7 @@ margin-bottom: 5px;
 
     #header{
         font-size: 17px !important;
-        font-weight: 500;
+        font-weight: 650;
     }
 
     .footer-logo{
@@ -492,11 +506,11 @@ margin-bottom: 5px;
 }
 @media(max-width : 990px){
     #header{
-        font-size: 45px ;
+        font-size: 36px ;
     }
     
     .mentor{
-        width: 70% !important;
+        width: 70% !important ;
         padding: 5px;
         margin: 20px auto;
     }
@@ -507,17 +521,24 @@ margin-bottom: 5px;
         display: block;
     }
 
+
+ 
+
   
 
    
 
 }
-@media(max-width : 700px){
+ @media (max-width : 700px){
     .footer-heading{
         font-size: 30px;
         text-align: center;
         display: block;
         clear: both;
+    }
+    #header{
+        font-size: 27px !important;
+        font-weight: 650;
     }
 
     .mentor{
@@ -530,4 +551,4 @@ margin-bottom: 5px;
 
 
 }
-
+ 
