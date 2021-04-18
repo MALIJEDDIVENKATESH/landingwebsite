@@ -150,7 +150,7 @@ hr{
         font-size: 40px;
     }
     .header-container{
-        padding: 20px;
+        padding: 20px; 
     }
     
     
@@ -286,7 +286,7 @@ align-items: center;
 
 .contact .contactsection{
        text-align: left;
-        padding:10px 40px;
+        /* padding:10px 10px; */
         margin-bottom: 10rem;
         margin: 2px auto;
         width: 100%;
@@ -301,6 +301,7 @@ align-items: center;
 .form-group{
     display: flex;
     align-items: center;
+    text-align: left;
 }
 
 
@@ -471,13 +472,6 @@ margin-bottom: 5px;
 }
 
 
-.contact .contactsection{
-       text-align: left;
-        padding:10px 40px;
-        margin-bottom: 10rem;
-        margin: 2px auto;
-        width: 70%;
-}
 .social-link-container{
     display: flex;
     align-items: center;
@@ -585,10 +579,7 @@ margin-bottom: 5px;
     }
     
 
-    body{
-        padding-top:100px  !important;
-    }
-
+  
     .footer-header-container{
         flex-direction: column;
     }
@@ -635,6 +626,10 @@ margin-bottom: 5px;
         font-size: 27px;
         font-weight: 650;
     }
+    .header-container{
+        margin-top: 50px; 
+    }
+    
 
     .mentor{
         width: 80% !important;
