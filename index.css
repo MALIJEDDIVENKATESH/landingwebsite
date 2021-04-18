@@ -503,7 +503,7 @@ margin-bottom: 5px;
 
 
 
-@media only screen and (max-width : 370px){
+@media  (max-width : 370px){
 
     .contact .contactsection{
         text-align: center;
@@ -519,8 +519,11 @@ margin-bottom: 5px;
  }
 
     .headerimage{
-        padding: 30px;
         margin-top: 10px;
+        padding: 0px;
+        margin-top: 10px;
+        height: 240px;
+        /* width: 300px; */
     }
 
     .row{
@@ -551,6 +554,11 @@ margin-bottom: 5px;
     .footer-logo{
         float: left !important;
         margin: 10px auto !important;
+        
+            width: 280px;
+            height: 250px;
+        
+       
     }
 
 
@@ -617,7 +625,7 @@ margin-bottom: 5px;
 }
  @media (max-width : 750px){
     .footer-heading{
-        font-size: 20px;
+        font-size: 23px;
         text-align: center;
         display: block;
         clear: both;
@@ -644,7 +652,7 @@ margin-bottom: 5px;
     }
    
     .footer-logo{
-        width: 100px;
+        width: 140px;
         height: 50px;
     }
    
