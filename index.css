@@ -190,7 +190,7 @@ hr{
 }
 
 .program .card-img-top{
-    height: 220px;
+    height: 200px;
 }
 
 .item{
@@ -223,7 +223,7 @@ align-items: center;
 }
 
 .card-img-top{
-    height: 220px ;
+    height: 180px ;
 }
 
 .mentor{
@@ -639,6 +639,9 @@ margin-bottom: 5px;
         height: 350px;
     }
 
+    .contact .contactsection{
+        width: 100%;
+    }
    
   
 
