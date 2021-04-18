@@ -283,7 +283,7 @@ align-items: center;
 
 
 .contact .contactsection{
-       text-align: center;
+       text-align: lef;
         padding:10px 40px;
         margin-bottom: 10rem;
         margin: 2px auto;
@@ -301,7 +301,7 @@ align-items: center;
 }
 
 .button{
-    width: 35%;
+    width: 140px;
     margin: 40px auto;
     padding: 10px;
     color:white;
@@ -471,7 +471,7 @@ margin-bottom: 5px;
 
 
 .contact .contactsection{
-       text-align: center;
+       text-align: left;
         padding:10px 40px;
         margin-bottom: 10rem;
         margin: 2px auto;
