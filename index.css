@@ -284,26 +284,29 @@ align-items: center;
 
 
 .contact .contactsection{
-       text-align: lef;
+       text-align: left;
         padding:10px 40px;
         margin-bottom: 10rem;
         margin: 2px auto;
-        width: 60%;
-        /* background-color: #000; */
-        /* background-color:rgb(100, 94, 94); */
-        /* background-color:rgb(121, 207, 51); */
-        /* color: white; */
+        width: 70%;
         border-radius: 10px;
 
 }
 
-.contact input{
-    margin:10px 0px;
+ label{
+    text-align: center;
+} 
+
+.form-group{
+    display: flex;
+    align-items: center;
 }
+
+
 
 .button{
     width: 140px;
-    margin: 40px auto;
+    margin: 10px auto;
     padding: 10px;
     color:white;
     border-radius: 5px;
@@ -311,10 +314,6 @@ align-items: center;
     border: none ;
     background-color:rgba(255, 65, 75, 0.897); 
     display:inline-block;   
-    /* background-color:white;  */
-    /* border: 2px solid; */
-    /* outline-color: rgba(255, 65, 75, 0.897);  */
-    /* color: rgba(255, 65, 75, 0.897);  */
         
 }
 /* .button:hover{
