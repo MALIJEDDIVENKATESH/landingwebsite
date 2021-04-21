@@ -189,7 +189,7 @@ hr{
     border-radius: 25px;
     display: flex;
     text-align: center;
-    width: 80%;
+    width: 100%;
     height: 100%;
     transition: 0.5s ease-in;
 
@@ -202,7 +202,7 @@ hr{
 }
 
 .program .card-img-top{
-    height: 250px;
+    height: 280px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
@@ -237,7 +237,7 @@ transition: 0.3s;
 }
 
 .card-img-top{
-    height: 180px ;
+    height: 150px ;
 }
 
 .mentor{
@@ -647,6 +647,10 @@ text-align: left;
 
 }
  @media (max-width : 750px){
+
+    .nav-logo{
+        margin-left: 15px;
+    }
     .footer-heading{
         font-size: 23px;
         text-align: center;
@@ -671,7 +675,7 @@ text-align: left;
     }
 
     .program{
-        width: 90% !important;
+        width: 100% ;
     }
     .card-img-top{
         height: 350px;
