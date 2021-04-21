@@ -32,8 +32,11 @@ body{
     background-color: #0033cc;
     color: #fff;
     text-align: center;
+    margin: 20px 10px;
+    
     
 }
+
 .joinbutton:hover{
     background-color:darkblue;
     color:#fff;
@@ -80,7 +83,7 @@ body{
 .nav-logo{
     height:55px;
     width: 150px;
-    margin-left: 15px;
+    margin-left: 100px;
 
 }
 
@@ -89,7 +92,7 @@ body{
     box-shadow: 0px 2px 26px rgba(0,0,0,0.3);
     /* box-shadow: 0px 0px 30px rgb(127 137 161 / 30%); */
     z-index: 99;
-    padding: 0;
+    padding: 5px;
 
 
 }
@@ -108,6 +111,9 @@ body{
 }
 .nav-link:active{
     color: greenyellow;
+}
+.navbar-nav{
+    padding-right: 80px;
 }
 
 
@@ -147,10 +153,10 @@ hr{
         
     }
     #header{
-        font-size: 40px;
+        font-size: 45px;
     }
     .header-container{
-        padding: 20px; 
+        padding:80px 10px; 
     }
     
     
@@ -179,8 +185,7 @@ hr{
 
 .program{
     margin: 15px auto;
-    border-radius: 0px;
-    padding: 10px;
+    border-radius: 25px;
     display: flex;
     text-align: center;
     min-width: 80%;
@@ -188,18 +193,22 @@ hr{
     transition: 0.5s ease-in;
 
 
+}
 
+.comingsoon{
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .program .card-img-top{
-    height: 200px;
+    height: 250px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .item{
 background-color: aliceblue;
 color:black;
-/* background-color:darkblue; */
-/* color: #fff; */
 padding: 10px;
 height: 100%;
 border-radius: 10px;
@@ -207,10 +216,12 @@ display: flex;
 flex-direction: column;
 justify-content:space-evenly;
 align-items: center;
-/* flex-wrap: wrap; */
+transition: 0.3s;
 }
+
 .item:hover{
-    box-shadow: 0 0 60px rgba(0,0,0.1);
+    /* box-shadow: 0 0 60px rgba(0,0,0.1); */
+    transform: scale(1.03);
 
 
 }
@@ -231,21 +242,18 @@ align-items: center;
 .mentor{
     margin: 10px auto;
     border-radius: 5px;
-    /* border: 0.5px solid grey; */
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content:space-around;
-    height: 70% !important;
-    min-width:40%;
+    height: 450px;
+    min-width:30%;
     box-shadow:  0 .5rem 1rem rgba(0,0,0,.15)!important
 }
 
 
 
 
-/* .mentors-container{
-} */
 
 .mentor-container{
     width: 100%;
@@ -272,8 +280,13 @@ align-items: center;
 
 .mentor-name{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
 }
+.mentor-name:hover{
+    text-decoration: none;
+}
+
+
 .image-container{
     padding-right:0px !important;
     padding-left: 0px !important;
@@ -286,7 +299,6 @@ align-items: center;
 
 .contact .contactsection{
        text-align: left;
-        /* padding:10px 10px; */
         margin-bottom: 10rem;
         margin: 2px auto;
         width: 100%;
@@ -308,27 +320,17 @@ align-items: center;
 
 .button{
     width: 140px;
-    margin: 10px auto;
+    margin: 5px 5px ;
     padding: 10px;
     color:white;
     border-radius: 5px;
     outline: none;
     border: none ;
-    background-color:rgba(255, 65, 75, 0.897); 
+    background-color:blue; 
     display:inline-block;   
         
 }
-/* .button:hover{
-    outline: none;
-    border: none ;
-     background-color:rgba(255, 65, 75, 0.897);  
-    display:inline-block;   
-    background-color:white; 
-    border: 2px solid;
-    background-color: rgba(255, 65, 75, 0.897); 
-    color: white; 
-        
-} */
+
 
 
 .carousel{
@@ -336,8 +338,7 @@ align-items: center;
     min-height: 620px;
     display: flex;
     align-items: center;
-    background-color: black;
-    /* background-color: white; */
+    background-color:grey;
     justify-content: space-around;
 }
 .carousel-inner{
@@ -365,6 +366,9 @@ align-items: center;
 
 }
 
+ .testimonials-container{
+    margin: 0 60px;
+} 
 
   
 
@@ -374,6 +378,10 @@ align-items: center;
     width: 150px;
     
 
+}
+
+.contactheading{
+    margin: 30px 0px;
 }
 
 
@@ -460,12 +468,24 @@ align-items: center;
     color: black;
     font-weight: 600 ;
     font-size: 1.2rem;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 200px;
 
 }
 .social-link>p{
 margin-bottom: 5px;
+width: 200px;
+text-align: left;
 
 }
+
+.social-link>i{
+    font-size: 25px;
+    padding: 5px;
+}
+
 .social-link:hover{
     text-decoration: none;
 
@@ -478,16 +498,18 @@ margin-bottom: 5px;
     justify-content: center;
     width: 100%;
     height: 100%;
-    padding: 20px;
     margin-bottom: 40px;
+    text-align: center;
+
     
 }
 
 .link-container{
-    display: flex;
+    display:flex;
+    width: 100%;
     font-weight: bold !important;
-    align-items: center;
-    margin-bottom: 5px;
+    justify-content: center;
+    margin-bottom: 15px;
 }
 
 
@@ -499,6 +521,12 @@ margin-bottom: 5px;
 
 
 @media  (max-width : 370px){
+    .nav-logo{
+        /* height:55px; */
+        /* width: 150px; */
+        margin-left: 50px;
+    
+    }
 
     .contact .contactsection{
         text-align: center;
@@ -514,11 +542,9 @@ margin-bottom: 5px;
  }
 
     .headerimage{
-        margin-top: 10px;
+        margin-top: 50px;
         padding: 0px;
-        margin-top: 10px;
         height: 240px;
-        /* width: 300px; */
     }
 
     .row{
@@ -536,15 +562,18 @@ margin-bottom: 5px;
         width: 100%;
     }
 
-    .program{
-        border-radius: 10px;
-    }
+ 
 
     #header{
-        font-size: 17px !important;
+        font-size: 30px !important;
         font-weight:600;
-        line-height: 30px;
+        /* line-height: 30px; */
     }
+
+    
+ .testimonials-container{
+    margin: 0px 0px;
+} 
 
     .footer-logo{
         float: left !important;
@@ -598,7 +627,7 @@ margin-bottom: 5px;
     .mentor{
         width: 100% !important ;
         padding: 5px;
-        margin: 20px auto;
+        margin: 50px auto;
     }
     .footer-heading{
         font-size: 30px;
@@ -623,8 +652,8 @@ margin-bottom: 5px;
         clear: both;
     }
     #header{
-        font-size: 27px;
-        font-weight: 650;
+        font-size: 40px;
+        font-weight: 550;
     }
     .header-container{
         margin-top: 50px; 
@@ -632,7 +661,7 @@ margin-bottom: 5px;
     
 
     .mentor{
-        width: 80% !important;
+        width: 95% !important;
         padding: 5px;
     }
 
