@@ -23,32 +23,23 @@ body{
     padding: 50px 0px  0px  0px;
     justify-content: center;
     flex-direction: column;
-    /* background-color:#ffc107; */
-  
-    
 }
 
 .joinbutton{
     background-color: #0033cc;
     color: #fff;
     text-align: center;
-    margin: 20px 10px;
-    
-    
+    margin: 5px 10px;
 }
 
 .joinbutton:hover{
     background-color:darkblue;
     color:#fff;
     transition: 0.1s ease-in;
-
-    
 }
 .container,.container-fluid{
     padding-left: 0px !important;
     padding-right: 0px !important;
-    /* overflow-x: hidden; */
-
 }
 .row{
     margin-right: 0px !important;
@@ -65,8 +56,8 @@ body{
 #scrollbutton{
     display: none;
     position: fixed;
-    bottom: 30px;
-    right: 30px;
+    bottom: 45px;
+    right: 45px;
     z-index: 99;
     border: none;
     outline: none;
@@ -90,7 +81,6 @@ body{
 .navbar{
     background-color:white;
     box-shadow: 0px 2px 26px rgba(0,0,0,0.3);
-    /* box-shadow: 0px 0px 30px rgb(127 137 161 / 30%); */
     z-index: 99;
     padding: 5px;
 
@@ -125,9 +115,8 @@ body{
     padding-top: 2.5rem;
     font-size: 2rem;
     text-shadow: 0px 0px 5px 1px rgba(0,0,0,0.3);
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   margin-top: 30px;
-  
 }
 
 hr{
@@ -157,17 +146,9 @@ hr{
         font-size: 45px;
     }
     .header-container{
-        padding:80px 10px 30px; 
+        padding:30px 10px 30px; 
     }
     
-    
-    .headerimage{
-        padding: 50px;
-
-
-    }
-
-
 
 .button-container{
     display: flex;
@@ -202,22 +183,25 @@ hr{
 }
 
 .program .card-img-top{
-    height: 280px;
+    height: 260px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
 
 .item{
-background-color: aliceblue;
-color:black;
+background-color:black;
+color:white;
 padding: 10px;
-height: 100%;
+height: auto;
 border-radius: 10px;
 display: flex;
 flex-direction: column;
 justify-content:space-evenly;
 align-items: center;
-transition: 0.3s;
+width: 90%;
+background-color:rgb(53, 50, 53);
+margin:10px auto;
+
 }
 
 .item:hover{
@@ -283,7 +267,7 @@ transition: 0.3s;
     font-weight: bold;
     font-size: 25px;
 }
-.mentor-name:hover{
+.mentor-name:hover a{
     text-decoration: none;
 }
 
@@ -336,11 +320,12 @@ transition: 0.3s;
 
 .carousel{
     margin: 5px auto;
-    min-height: 620px;
+    min-height: 450px;
     display: flex;
     align-items: center;
-    background-color:grey;
     justify-content: space-around;
+    /* background-color: black; */
+
 }
 .carousel-inner{
     width: 100%;
@@ -348,36 +333,52 @@ transition: 0.3s;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 
 .carousel-item{
-    width: 70%;
-    height: 90%;
-    margin: 12px auto;
+    width: 400px;
+    margin: 42px auto;
     text-align: center;
+
+}
+
+.carouselitems{
+    display: flex;
+    justify-content: space-between;
 }
 
 .carousel-indicators li {
     border-radius: 50%;
     width: 12px;
     height: 12px;
-    background-color:azure;
+    background-color:grey;
     color: black;
 
 }
+.carousel-control-next,.carousel-control-prev{
+    background-color: blue;
+    opacity: 1;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: auto;
+}
 
  .testimonials-container{
-    margin: 0 60px;
+    margin: 0 50px;
 } 
 
   
 
 .studentimg{
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
-    
+    height: 90px;
+    width: 90px;
+border:3px solid white;
+margin-bottom: 5px;
 
 }
 
@@ -385,13 +386,25 @@ transition: 0.3s;
     margin: 30px 0px;
 }
 
+.quicklinks li{
+    margin-top: 12px;
+}
+
+.quicklinks li a {
+    color: white;
+    
+}
+
+.quicklinks li a:hover{
+    color:#ffc107;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
 
 .footer{
     height: auto;
     width: 100%;
-    height: auto;
-    padding-left: 5px;
-    /* font-family: 'Lato', sans-serif; */
+    padding: 0px 90px 0px;
 
 
 }
@@ -412,13 +425,31 @@ transition: 0.3s;
     align-items: center;
 }
 
-.fa {
+.social .fa {
     padding: 10px;
-    font-size: 18px;
-    width: 34px;
+    border-radius: 5px;
+    color:black;
     text-align: center;
     text-decoration: none;
     margin-right: 10px;
+    font-weight: bold;
+    display: inline-block;
+    width: 35px;
+    background-color: #fff;
+    font-weight: bold;
+  }
+
+.fa {
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 35px;
+    font-weight: bold;
   }
 
   .fa:hover {
@@ -426,7 +457,7 @@ transition: 0.3s;
     text-decoration: none;
   }
 
-
+/* 
 .fa-facebook {
   background: #3B5998;
   color: white;
@@ -441,19 +472,18 @@ transition: 0.3s;
 .fa-linkedin {
   background: #007bb5;
   color: white;
-}
+} */
 
 .fa-youtube {
   background: #bb0000;
   color: white;
 }
 
-.fa-instagram {
-  background:white;
-  color:red;
-  outline: 2px solid salmon;
-}
-.fa-github {
+/* .fa-instagram {
+  
+  
+} */
+/* .fa-github {
   background:white;
   color:black;
 }
@@ -464,7 +494,7 @@ transition: 0.3s;
 .fa-telegram {
   background:rgb(67, 250, 226);
   color:white;
-}
+} */
 .social-link{
     color: black;
     font-weight: 600 ;
@@ -523,8 +553,6 @@ text-align: left;
 
 @media  (max-width : 380px){
     .nav-logo{
-        /* height:55px; */
-        /* width: 150px; */
         margin-left: 50px;
     
     }
@@ -543,9 +571,11 @@ text-align: left;
  }
 
     .headerimage{
-        margin-top: 50px;
+        margin-top: 5px;
         padding: 0px;
         height: 240px;
+        padding: 20px;
+
     }
 
     .row{
@@ -568,7 +598,6 @@ text-align: left;
     #header{
         font-size: 30px !important;
         font-weight:600;
-        /* line-height: 30px; */
     }
 
     
@@ -620,6 +649,7 @@ text-align: left;
    
 
 }
+
 @media(max-width : 990px){
     #header{
         font-size: 27px ;
@@ -630,6 +660,10 @@ text-align: left;
         padding: 5px;
         height: 100%;
         margin: 50px auto;
+    }
+
+    .footer{
+        padding: 20px;
     }
     .footer-heading{
         font-size: 30px;
@@ -646,6 +680,7 @@ text-align: left;
    
 
 }
+
  @media (max-width : 750px){
 
     .nav-logo{
@@ -657,12 +692,16 @@ text-align: left;
         display: block;
         clear: both;
     }
+    .carousel-control-next,.carousel-control-prev{
+        display: none;
+    }
+
     #header{
         font-size: 40px;
         font-weight: 550;
     }
     .header-container{
-        margin-top: 50px; 
+        margin-top: 10px; 
     }
     .testimonials-container{
         margin: 0px 0px;
