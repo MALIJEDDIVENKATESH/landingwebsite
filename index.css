@@ -230,7 +230,7 @@ margin:10px auto;
     display: flex;
     align-items: center;
     justify-content:space-around;
-    height: 450px;
+    height: 350px;
     min-width:30%;
     box-shadow:  0 .5rem 1rem rgba(0,0,0,.15)!important
 }
@@ -256,8 +256,8 @@ margin:10px auto;
     text-align: center;
 }
 .mentor-image{
-    width: 60%;
-    height:90%;
+    width: 150px;
+    height:150px;
     border-radius: 50%;
     
 }
@@ -320,7 +320,7 @@ margin:10px auto;
 
 
 .swiper-container{
-    height: 550px;
+    height: 500px;
 
 }
 
@@ -331,7 +331,7 @@ margin:10px auto;
     align-items: center;
     flex-direction: column;
     width: 300px;
-    min-height: 350px;
+    min-height: 300px;
     border-radius: 30px !important;
 
 
@@ -659,7 +659,7 @@ text-align: left;
     
 
     .mentor{
-        width: 85% !important;
+        width: 70% !important;
         padding: 5px;
     }
 
