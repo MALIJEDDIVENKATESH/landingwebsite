@@ -227,11 +227,11 @@ margin:10px auto;
     margin: 10px auto;
     border-radius: 5px;
     padding: 10px;
+    height: 450px;
     display: flex;
-    align-items: center;
-    justify-content:space-around;
-    height: 350px;
-    min-width:30%;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
     box-shadow:  0 .5rem 1rem rgba(0,0,0,.15)!important
 }
 
@@ -256,8 +256,8 @@ margin:10px auto;
     text-align: center;
 }
 .mentor-image{
-    width: 150px;
-    height:150px;
+    width: 180px;
+    height:180px;
     border-radius: 50%;
     
 }
@@ -611,7 +611,7 @@ text-align: left;
     }
     
     .mentor{
-        width: 100% !important ;
+        width: 200px ;
         padding: 5px;
         height: 100%;
         margin: 50px auto;
@@ -659,7 +659,7 @@ text-align: left;
     
 
     .mentor{
-        width: 70% !important;
+        width: 200px !important;
         padding: 5px;
     }
 
